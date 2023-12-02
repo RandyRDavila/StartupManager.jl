@@ -13,6 +13,18 @@
 - **Remove Packages**: Safely remove packages from the startup file.
 - **Project Specific**: Customize startup behavior for different Julia projects.
 
+## Installation
+
+Since `StartupManager.jl` is not registered in the Julia General Registry, it can be added directly from the GitHub repository.
+
+In the Julia REPL, use the following command:
+
+```julia
+julia> using Pkg
+
+julia> Pkg.add(url="https://github.com/RandyRDavila/StartupManager.jl")
+```
+
 ## Usage
 
 ```julia
